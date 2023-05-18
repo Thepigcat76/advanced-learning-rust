@@ -1,6 +1,14 @@
 use std::io::{self, BufRead};
 
+mod test;
+
 fn main() {
+    println!("uwu");
+    test::uwu();
+}
+
+fn friends() {
+    #![allow(warnings)]
     let mut friends: Vec<String> = vec!["uwu".to_string(), "owo".to_string(), "#w#".to_string()];
     loop {
         println!("Enter a new name:");
